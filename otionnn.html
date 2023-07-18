@@ -1,0 +1,37 @@
+<html>
+<head>
+    <h1>choosing option</h1>
+</head>
+<body>
+    <input type="text" id="n1" placeholder="ente"/><br>
+    <input type="text" id="n2" placeholder="ente"/><br>
+    <select id="operator">
+        <option>--select--</option>
+        <option value="-">-</option>
+        <option value="+">+</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <button onclick="funk()">click</button><br>
+    <input type="text" id="result" />
+
+
+    <script type="text/javascript">
+        function funk()
+        {
+        var a=document.getElementById("n1").value;
+        var b=document.getElementById("n2").value;
+        var c=document.getElementById("operator").value;
+        if(c=="+")
+        document.getElementById("result").value=a+b;
+        if(c=="-")
+        document.getElementById("result").value=a-b;
+        if(c=="*")
+        document.getElementById("result").value=a*b;
+        if(c=="/")
+        document.getElementById("result").value=a/b;
+        }
+    </script>
+    </body>
+
+</html>

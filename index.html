@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style type="text/css">
+            
+                #a19:active {
+              background-color: #169808;
+              box-shadow: 0 5px rgb(119, 133, 95);
+               transform: translateY(4px);
+            }
+            h1{
+            color: rgb(3, 14, 61);
+            background: #e7a80b;   
+            padding: 30px 25px;
+            box-sizing: content-box;       
+             text-shadow: 0 0 3px #d71e1e;
+
+            }
+           .d1 {color: rgb(3, 14, 61);     
+             text-shadow: 0 0 3px #d71e1e;
+                      }
+            
+        .btn1 {
+
+        background-color: black;
+
+        border: rgb(175, 231, 22);
+
+        color: white;
+
+        padding: 12px 16px;
+
+        font-size: 25px;
+
+        cursor: pointer;
+
+        }
+        .btn1:hover {
+
+        background-color: #66cc00;
+
+        color: rgb(52, 10, 130);
+
+       }
+        table,tr {
+            background-color: #ff7300;
+           border: 8px solid rgb(81, 152, 10);
+        
+        }
+        body {
+            background-color: rgb(152, 205, 219);
+        }
+        head {
+            background-color: aqua;
+        }
+        
+        tr {
+            text-align: left;
+        }
+        he{
+            color: darkblue;
+        }
+        .a9{
+            background-color: #66cc00;
+            padding: 10px 25px;
+        }
+        
+
+        </style>
+    <title>file share</title>
+    <hr style="width:50%;text-align:center;height:4px;border-width:0;color:gray;background-color:gray">
+    <center>
+     <h1><b>EASY SHARE!!</b></h1>
+    </center>
+    
+     <hr>
+     <script type="text/javascript">
+        {
+            function f1(event) 
+            {
+                event.preventDefault()
+                if(document.getElementById("a").value=="" || document.getElementById("b").value=="")
+
+                {
+                    alert("Please enter the email and password ");
+                    
+
+                    return false;
+                }
+                else
+                {
+                    alert("You are logged in succesfully!!!");
+                    window.location.href='./menu.html';
+                    return true;
+                }
+}
+        }
+    
+     </script>
+    </head>
+    <body>
+    <center>
+
+<a href=a1.html><button class="btn1"><i class="fa fa-home"></i> Home</button></a>
+
+<a href=menu.html><button class="btn1"><i class="fa fa-bars"></i> Menu</button></a>
+
+<button class="btn1"><i class="fa fa-trash-o"></i> Trash </button>
+<a href=report.html><button class="btn1"><i class="fa fa-file"></i> Report</button></a>
+<a href=contact.html><button class="btn1"><i class="fa fa-address-book"></i>  Contact</button></a>
+<a href=settings.html><button class="btn1"><i class="fa fa-cog"></i> Settings</button></a>
+ <marquee><h3> File sharing sites provide services to access digital media like photos, videos, documents, etc. from anywhere for its users.</h3></marquee>
+ <hr style="width:100%;text-align:center;height:4px;border-width:0;color:rgb(118, 23, 94);background-color:rgb(120, 14, 117)">
+ 
+    </center>
+    <h2 class="d1">Description</h2>
+ <p>File sharing is the public or private sharing of computer data or space in a network with various levels of access privilege. While files can easily be shared outside a network (for example, simply by handing or mailing someone your file on a diskette), the term file sharing almost always means sharing files in a network, even if in a small local area network. File sharing allows a number of people to use the same file or file by some combination of being able to read or view it, write to or modify it, copy it, or print it. Typically, a file sharing system has one or more administrators. Users may all have the same or may have different levels of access privilege. File sharing can also mean having an allocated amount of personal file storage in a common file system.</p>
+       <br>
+        <center>
+        <table>
+            <h2 class="w1">Signin/Login</h2>
+        <form name="HI" method="post" action="#" onsubmit="return f1()">
+            <tr>
+            <th><br><br>+Enter your<input type="text" id="a" placeholder="Email/userd"  required/><br><br><br></th>
+            </tr>
+            <tr>
+            <th>+Enter yourl<input type="password" id="b" placeholder="password" required/><br><br><br></th>
+            </tr>
+            <tr>
+            <th><h4>Don't have account?<a href="a1.html"> SIGN IN</a></h4></th>
+              
+            </tr>
+            <tr aria-setsize="5%">
+                <th> <br><br><center><a href=menu.html><button class="a9" id="a19"type="submit" onclick="f1(event)">submit</button></a></center></th>
+            </tr>
+        </table>
+        </form>
+        
+        </table>
+        </center>
+    </body>
+    </html>

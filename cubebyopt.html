@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <h1 id="hi">to find powers</h1>
+    </head>
+    <body>
+        <input type="text" id="n1" placeholder="enter a number"/>
+        <select id="n2">
+            <option>--select--</option>
+            <option value="cube">cube</option> 
+            <option value="square">square</option> 
+            <option value="more">more</option>
+        </select>
+        <button onclick="func()">click</button>
+        <input type="text" id="result" />
+    <script type="text/javascript">
+        function func()
+        {
+            var a=document.getElementById("n1").value;
+            var b=document.getElementById("n2").value;
+            if (b=="cube")
+            document.getElementById("result").value=a**3;
+            if(b=="square")
+            document.getElementById("result").value=a**2;
+            if(b=="more")
+            document.getElementById("result").value=a**4;
+            document.getElementById("hi").style.color="red";
+            document.write(f);
+
+        }
+
+           
+    
+    </script>
+    </body>
+</html>
+
+        
+

@@ -1,0 +1,25 @@
+<html>
+    <head>
+   <h1>to validate an email</h1>
+    </head>
+    <body>
+        <input type="email" id="m1" placeholder="enter an email"/>
+        <button onclick="func()">click</button>
+        <script>
+            function func()
+            {
+            var a=document.getElementById("m1").value;
+            var c=/^([a-zA-Z0-9]+)@([a-zA-z0-9])+.([a-zA-Z0-9]+)?$/
+            if ((a,c))
+            {
+            alert("you have provided a valid mail id")
+            return True
+            }
+            else{
+               alert("not valid")
+               return False
+            }
+        }
+        </script>
+    </body>
+</html>
